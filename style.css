@@ -1,0 +1,54 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #17181a;
+}
+
+.container{
+  
+  height: 50rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  text-align: center;
+}
+
+.item{
+  width: 240px;
+  
+  padding: 5%;
+  border-radius: 25px;
+  color: rgba(255, 255, 255, 0.932);
+
+
+}
+.item ul li{
+  list-style: none;
+
+}
+.item ul {
+  margin-left: -30px;
+
+}
+
+.one{
+  height: 28rem;
+  background-image: linear-gradient(to top right, #068129,#28D98A);
+}
+
+
+.three{
+  height: 28rem;
+  background-image: linear-gradient(to bottom right, #30A5E7, #0C2C7C);
+}
+
+
+.item button{
+  padding: 10px;
+  font-size: 23px;
+  border-radius: 24px;
+  border-color: grey;
+  margin: 0.6rem;
+  color: rgb(80, 80, 77);
+  font-weight: 700;
+}
